@@ -64,6 +64,8 @@ export const Navbar = () => {
 
           {/* mobile */}
           <span className="flex md:hidden">
+            <ModeToggle />
+
             <Sheet
               open={isOpen}
               onOpenChange={setIsOpen}
@@ -100,11 +102,9 @@ export const Navbar = () => {
                       {label}
                     </a>
                   ))}
-                  <a href="http://wa.me/5516981747790" target="_blank" rel="noopener noreferrer" className="w-full">
-                    <Button className="w-full mt-4">
-                      Renovar Receita
-                    </Button>
-                  </a>
+                  <Button className="w-full mt-4">
+                    Renovar Receita
+                  </Button>
                 </nav>
               </SheetContent>
             </Sheet>
@@ -127,11 +127,13 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2 items-center">
-            <a href="http://wa.me/5516981747790" target="_blank" rel="noopener noreferrer">
-              <Button size="sm" className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70">
-                Renovar Agora
-              </Button>
-            </a>
+            <Button variant="outline" size="sm">
+              Entrar
+            </Button>
+            <Button size="sm" className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70">
+              Renovar Agora
+            </Button>
+            <ModeToggle />
           </div>
         </NavigationMenuList>
       </NavigationMenu>

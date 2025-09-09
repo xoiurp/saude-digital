@@ -124,14 +124,12 @@ export const Pricing = () => {
             </CardHeader>
 
             <CardContent>
-              <a href="http://wa.me/5516981747790" target="_blank" rel="noopener noreferrer" className="w-full">
-                <Button 
-                  className="w-full" 
-                  variant={pricing.popular === PopularPlanType.YES ? "default" : "outline"}
-                >
-                  {pricing.buttonText}
-                </Button>
-              </a>
+              <Button 
+                className="w-full" 
+                variant={pricing.popular === PopularPlanType.YES ? "default" : "outline"}
+              >
+                {pricing.buttonText}
+              </Button>
             </CardContent>
 
             <hr className="w-4/5 m-auto mb-4" />

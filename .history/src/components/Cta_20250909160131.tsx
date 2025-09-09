@@ -26,7 +26,7 @@ export const Cta = () => {
               <span className="text-sm">Consulta médica em até 30 minutos</span>
             </div>
             <div className="flex items-center gap-2">
-              <Shield className="h-5 w-5 text-purple-500" />
+              <Shield className="h-5 w-5 text-blue-500" />
               <span className="text-sm">Receita digital válida em todo Brasil</span>
             </div>
             <div className="flex items-center gap-2">

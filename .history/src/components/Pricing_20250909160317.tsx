@@ -108,7 +108,7 @@ export const Pricing = () => {
                 {pricing.title}
                 {pricing.popular === PopularPlanType.YES ? (
                   <Badge
-                    variant="filled"
+                    variant="default"
                     className="text-s text-primary"
                   >
                     Mais popular

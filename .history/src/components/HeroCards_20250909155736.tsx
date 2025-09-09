@@ -73,8 +73,8 @@ export const HeroCards = () => {
           <CardTitle className="flex item-center justify-between">
             Receita Digital
             <Badge
-              variant="filled"
-              className="text-s text-primary"
+              variant="black"
+              className="text-sm text-primary"
             >
               Mais popular
             </Badge>

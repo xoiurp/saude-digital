@@ -26,7 +26,7 @@ export const Cta = () => {
               <span className="text-sm">Consulta médica em até 30 minutos</span>
             </div>
             <div className="flex items-center gap-2">
-              <Shield className="h-5 w-5 text-purple-500" />
+              <Shield className="h-5 w-5 text-blue-500" />
               <span className="text-sm">Receita digital válida em todo Brasil</span>
             </div>
             <div className="flex items-center gap-2">
@@ -37,12 +37,13 @@ export const Cta = () => {
         </div>
 
         <div className="space-y-4 lg:col-start-2">
-          <a href="http://wa.me/5516981747790" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" className="w-full md:mr-4 md:w-auto">
-              Renovar Receita Agora
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </a>
+          <Button size="lg" className="w-full md:mr-4 md:w-auto">
+            Renovar Receita Agora
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Button>
+          <p className="text-sm text-muted-foreground">
+            Ou ligue: <span className="font-bold text-primary">0800 123 4567</span>
+          </p>
         </div>
       </div>
     </section>

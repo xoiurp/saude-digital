@@ -9,7 +9,7 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             Renove sua{" "}
-            <span className="inline bg-gradient-to-r from-[#7487F1] to-[#6ba0f0] text-transparent bg-clip-text">
+            <span className="inline bg-gradient-to-r from-[#0EA5E9] to-[#22D3EE] text-transparent bg-clip-text">
               receita médica
             </span>{" "}
             online
@@ -30,7 +30,7 @@ export const Hero = () => {
             <span>Médicos CRM ativos</span>
           </div>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <Clock className="h-5 w-5 text-blue-500" />
+            <Clock className="h-5 " />
             <span>Atendimento 24h</span>
           </div>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -40,7 +40,7 @@ export const Hero = () => {
         </div>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button size="lg" className="w-full md:w-auto bg-gradient-to-r from-[#0EA5E9] to-[#22D3EE] from-[#7487F1] to-[#6ba0f0] ">
+          <Button size="lg" className="w-full md:w-auto bg-gradient-to-r from-[#0EA5E9] to-[#22D3EE] hover:from-[#0284C7] hover:to-[#0EA5E9]">
             Renovar Receita Agora
           </Button>
 
