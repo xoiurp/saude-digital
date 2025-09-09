@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { 
+  Clock, 
   Shield, 
   Smartphone, 
   CheckCircle2, 

@@ -9,8 +9,9 @@ import {
   CardTitle,
   CardFooter,
 } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import { Check, Linkedin } from "lucide-react";
 import { LightBulbIcon } from "./Icons";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
   return (

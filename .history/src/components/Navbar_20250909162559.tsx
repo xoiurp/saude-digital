@@ -57,7 +57,7 @@ export const Navbar = () => {
                 alt="RenovaReceitas Logo" 
                 className="h-8 w-8"
               />
-              <span className="ml-2 text-primary">Renove Receitas</span>
+              <span className="ml-2 text-primary">RenoveReceitas</span>
             </a>
           </NavigationMenuItem>
 
